@@ -9,8 +9,8 @@ This guide explains how to add a **Show/Hide Password toggle button** in an Orac
 Go to your **Password Item → Post Text** and add:
 
 ```html
-<button type="button" style="height:40px; border:1px solid #87ceeb !important;">
-    <span id="pwdItem" class="fa fa-eye pw-item-icon" onclick="viewPWD()"></span>
+<button type="button" onclick="viewPWD()"  style="height:40px; border:1px solid #87ceeb !important;">     
+    <span id="pwdItem" class="fa fa-eye pw-item-icon"></span>  
 </button>
 
 ```
